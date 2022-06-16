@@ -85,10 +85,10 @@ iframe {
 form {
     width: 400px;
     padding:16px;
-	border-radius:10px;
     background-color: #4b524e;
 }
 form label{
+    display: inline-block;
 	width: 90px;
 	font-weight:bold;
     color: #fcfcfc;
@@ -98,7 +98,7 @@ form input[type="submit"]{
 	width: 50%;
 	padding: 7px 16px;
 	margin: top 20px;
-	border:1px solid #d7002d;
+	border:1px solid #000000;
 	border-radius:7px;
 	display:block;
 	color:#fff;
@@ -111,7 +111,7 @@ form input[type="reset"]{
 	width: 50%;
 	padding:7px 16px;
     text-align: center;
-	border:1px solid #d7002d;
+	border:1px solid #000000;
 	border-radius:7px;
 	display:block;
 	color:#fff;
@@ -162,9 +162,6 @@ footer div ul li {
 img {
     border-radius: 20px;
 }
-#fotoDecorativa {
-    border-radius: 50%;
-}
 .tituloFormularioContacto {
     text-align: center;
     font-size: 30px;
@@ -181,7 +178,6 @@ footer {
     justify-content: space-between;
     align-items: flex-end;
     background-color: #000000;
-    border-radius: 70px;
     height: 200px;
     width: auto;
 }
@@ -474,9 +470,9 @@ padding-left: 300px;
 .gridCursos {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(9, 1fr);
+    grid-template-rows: repeat(9, auto);
     grid-column-gap: 0px;
-    grid-row-gap: 10px;
+    grid-row-gap: 50px;
 }
 .headerGridCursos {
     grid-area: 1 / 1 / 2 / 4;
@@ -489,30 +485,42 @@ padding-left: 300px;
     justify-self: center;
 }
 .fotosGuitarra {
-    grid-area: 4 / 1 / 5 / 4;
+    grid-area: 4 / 1 / 5 / 2;
+    padding-left: 50px;
 }
 .par1 {
-    grid-area: 4 / 1 / 5 / 4;
+    grid-area: 4 / 2 / 5 / 4;
+    align-self: center;
+    text-align: justify;
+    padding-right: 50px;
 }
 .sub2 {
     grid-area: 5 / 1 / 6 / 4;
     justify-self: center;
 }
 .fotosTeclado {
-    grid-area: 6 / 1 / 7 / 4;
+    grid-area: 6 / 1 / 7 / 2;
+    padding-left: 50px;
 }
 .par2 {
-    grid-area: 6 / 1 / 7 / 4;
+    grid-area: 6 / 2 / 7 / 4;
+    align-self: center;
+    text-align: justify;
+    padding-right: 50px;
 }
 .sub3 {
     grid-area: 7 / 1 / 8 / 4;
     justify-self: center;
 }
 .fotosBajo {
-    grid-area: 8 / 1 / 9 / 4;
+    grid-area: 8 / 1 / 9 / 2;
+    padding-left: 50px;
 }
 .par3 {
-    grid-area: 8 / 1 / 9 / 4;
+    grid-area: 8 / 2 / 9 / 4;
+    align-self: center;
+    text-align: justify;
+    padding-right: 50px;
 }
 .footerCursos {
     grid-area: 9 / 1 / 10 / 4;
