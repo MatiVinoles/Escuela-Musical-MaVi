@@ -5,71 +5,89 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Trabaja con nosotros</title>
-    <link rel="stylesheet" href="../css/styles.css">
-    <link rel="stylesheet" href="../css/media.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,700;1,300;1,700&display=swap" rel="stylesheet">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
 </head>
-<body class="gridTrabajaConNosotros">
+<body>
      <!-- Header (Logo + Nombre de la escuela + Navigation Bar) -->
      <header class="headerTcN">
         <a href="index.html">
             <img class="logo" src="../assets/logo1.png" alt="Logo de la escuela">
         </a>
-        <nav>
-            <ul>
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="cursos.html">Cursos</a></li>
-                <li><a href="nuestros_profesores.html">Nuestros profesores</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
-                <li><a href="trabaja_con_nosotros.html">Trabaja con nosotros</a></li>
-            </ul>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-around"id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                  <a class="nav-link active mx-3" aria-current="page" href="./index.html">Inicio</a>
+                  <a class="nav-link mx-3" href="./cursos.html">Cursos</a>
+                  <a class="nav-link mx-3" href="./nuestros_profesores.html">Nuestros profesores</a>
+                  <a class="nav-link mx-3" href="./contacto.html">Contacto</a>
+                  <a class="nav-link mx-3" href="./trabaja_con_nosotros.html">Trabaja con nosotros</a>
+                </div>
+              </div>
+            </div>
         </nav>
     </header>
-    <div class="texto1">
-        <h1 class="tituloDos">Formá parte de nuestro equipo</h1>
-    </div>
-    <div class="texto3">
-        <h4 class="tituloFormularioTrabajo">Completa el siguiente formulario</h4>
-    </div>
-    <section class="sectionForm form">
-        <form>
-            <label for="nombre">Tu nombre</label>
-            <input type="text" id="Nombre" /><br>
-            <label for="apellido">Tu apellido</label>
-            <input type="text" id="apellido" /><br>
-            <label for="mail">Tu E-Mail</label>
-            <input type="text" id="mail"><br>
-            <label for="promociones">Quieres recibir nuestras promociones?</label></br>
-            <input type="radio" id="si" name="promocion" value="si"/>
-            <label for="si">Si</label>
-            <input type="radio" id="no" name="promocion" value="no"/>
-            <label for="no">No</label><br>
-            <label for="comentarios">Cuentanos sobre ti y tu experiencia</label></br>
-            <textarea id="Comentarios" rows="10" cols="50"></textarea></br>
-            <input type="submit"/>
-            <input type="reset"/>
-        </form>
+    <section class="container-fluid">
+        <div class="d-flex flex-column">
+            <div class="col-md-12">
+                <h1 class="tituloDos mt-3">Formá parte de nuestro equipo</h1>
+            </div>
+            <div class="col-md-12">
+                <h4 class="tituloFormularioTrabajo mb-4">Completa el siguiente formulario</h4>
+            </div>
+        </div>
     </section>
-    <footer class="footerTrabajaConNosotros">
-        <div class="footerSocialMedia">
-            <ul>
-                <li><a class="hipervinculos" href="http://www.facebook.com">Facebook</a></li>
-                <li><a class="hipervinculos" href="http://www.instagram.com">Instagram</a></li>
-                <li><a class="hipervinculos" href="http://www.twitter.com">Twitter</a></li>
-            </ul>
-        </div>
-        <div class="footerContacto">
-            <ul>
-                <li><a class="hipervinculos" href="https://web.whatsapp.com">(+598)92600921</a></li>
-                <li><a class="hipervinculos" href="https://www.gmail.com">MaViEscuelaMusical@gmail.com</a></li>
-                <li><a class="hipervinculos" href="https://goo.gl/maps/aEZWD4htGeX3zEwf9">Avenida Uruguay 555</a></li>
-            </ul>
-        </div>
-        <div>
-            <p class="developer">Desarrollado por <a class="hipervinculos" href="http://www.linkedin.com/in/matias-viñoles-609a3b18a">Matias Viñoles</a></p>
-        </div>
+<section class="container-fluid d-flex justify-content-center">
+    <form class= "mb-5 rounded">
+      <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">Nombre</label>
+        <input type="nombre" class="form-control" id="exampleInputName1" aria-describedby="nameHelp">
+      </div>
+      <div class="mb-3">
+        <label for="exampleInputPassword1" class="form-label">Apellido</label>
+        <input type="apellido" class="form-control" id="exampleInputApellido1">
+      </div>
+      <div class="mb-3">
+        <label for="exampleInputPassword1" class="form-label">E-Mail</label>
+        <input type="email" class="form-control" id="exampleInputEmail1">
+      </div>
+      <div class="mb-3">
+        <label for="exampleFormControlTextarea1" class="form-label">Cuentanos sobre ti</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="6"></textarea>
+      </div>
+      <button type="submit" class="btn btn-outline-light">Enviar</button>
+      <button type="reset" class="btn btn-outline-light">Restablecer</button>
+    </form>
+</section>
+    <footer class="d-flex align-items-center">
+        <section class="container-fluid">
+            <div class="row">
+                <div class="redes col-md-6 d-flex flex-row justify-content-center">   
+                    <a class="hipervinculos col-md-1" href="http://www.facebook.com" target="_blank"><i class="bi bi-facebook"></i></a>
+                    <a class="hipervinculos col-md-1" href="http://www.instagram.com" target="_blank"><i class="bi bi-instagram"></i></a>
+                    <a class="hipervinculos col-md-1" href="http://www.twitter.com" target="_blank"><i class="bi bi-twitter"></i></a>
+                </div>
+                <div class="contacto col-md-6 d-flex flex-row justify-content-center">
+                    <a class="hipervinculos col-md-1" href="https://web.whatsapp.com" target="_blank"><i class="bi bi-whatsapp"></i></a>
+                    <a class="hipervinculos col-md-1" href="https://www.gmail.com" target="_blank"><i class="bi bi-envelope"></i></a>
+                    <a class="hipervinculos col-md-1" href="https://goo.gl/maps/aEZWD4htGeX3zEwf9" target="_blank"><i class="bi bi-geo-alt"></i></a>
+                </div>
+                <div class="col-md-12 d-flex justify-content-center">
+                    <p class="developer">Desarrollado por <a class="hipervinculos" href="http://www.linkedin.com/in/matias-viñoles-609a3b18a">Matias Viñoles</a></p>
+                </div>
+            </div>
+        </section>
     </footer>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
 </html>
