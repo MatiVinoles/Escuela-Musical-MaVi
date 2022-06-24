@@ -75,7 +75,6 @@ form label{
     font-weight: bold;
     font-style: italic;
     font-size: 17px;
-    padding-right: 60px;
 }
 .tituloFormularioContacto {
     text-align: center;
@@ -97,46 +96,38 @@ footer {
     color: #fcfcfc;
 }
 .hipervinculos:hover {
-    color: #f8f8f8;
-    border: solid #d7002d;
-    border-radius: 5px;
-    background-color: #000000;
+    color: #d7002d;
+    font-size: 20px;
 }
 .bi-whatsapp {
     font-size: 30px;
     text-align: center;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin: 10px;
 }
 .bi-instagram {
     font-size: 30px;
     text-align: center;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin: 10px;
 }
 .bi-twitter {
     font-size: 30px;
     text-align: center;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin:10px;
 }
 .bi-facebook {
     font-size: 30px;
     text-align: center;
-    margin-left: 10px;
-    margin-right: 10pxs;
+    margin: 10px;
 }
 .bi-envelope {
     font-size: 30px;
     text-align: center;
-    margin-left: 10px;
-    margin-right: 10pxs;
+    margin: 10px;
 }
 .bi-geo-alt {
     font-size: 30px;
     text-align: center;
-    margin-left: 10px;
-    margin-right: 10pxs;
+    margin: 10px;
 }
 
 
