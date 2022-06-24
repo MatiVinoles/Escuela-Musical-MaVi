@@ -75,7 +75,10 @@ form label{
     font-weight: bold;
     font-style: italic;
     font-size: 17px;
+<<<<<<< HEAD
     padding-right: 60px;
+=======
+>>>>>>> rama2
 }
 .tituloFormularioContacto {
     text-align: center;
@@ -97,46 +100,75 @@ footer {
     color: #fcfcfc;
 }
 .hipervinculos:hover {
+<<<<<<< HEAD
     color: #f8f8f8;
     border: solid #d7002d;
     border-radius: 5px;
     background-color: #000000;
+=======
+    color: #d7002d;
+    font-size: 20px;
+>>>>>>> rama2
 }
 .bi-whatsapp {
     font-size: 30px;
     text-align: center;
+<<<<<<< HEAD
     margin-left: 10px;
     margin-right: 10px;
+=======
+    margin: 10px;
+>>>>>>> rama2
 }
 .bi-instagram {
     font-size: 30px;
     text-align: center;
+<<<<<<< HEAD
     margin-left: 10px;
     margin-right: 10px;
+=======
+    margin: 10px;
+>>>>>>> rama2
 }
 .bi-twitter {
     font-size: 30px;
     text-align: center;
+<<<<<<< HEAD
     margin-left: 10px;
     margin-right: 10px;
+=======
+    margin:10px;
+>>>>>>> rama2
 }
 .bi-facebook {
     font-size: 30px;
     text-align: center;
+<<<<<<< HEAD
     margin-left: 10px;
     margin-right: 10pxs;
+=======
+    margin: 10px;
+>>>>>>> rama2
 }
 .bi-envelope {
     font-size: 30px;
     text-align: center;
+<<<<<<< HEAD
     margin-left: 10px;
     margin-right: 10pxs;
+=======
+    margin: 10px;
+>>>>>>> rama2
 }
 .bi-geo-alt {
     font-size: 30px;
     text-align: center;
+<<<<<<< HEAD
     margin-left: 10px;
     margin-right: 10pxs;
+=======
+    margin: 10px;
+>>>>>>> rama2
 }
 
 
