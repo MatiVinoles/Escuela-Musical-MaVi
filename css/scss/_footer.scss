@@ -1,0 +1,54 @@
+footer {
+    background-color: #000000;
+    height: 150px;
+    width: auto;
+
+    .bi-whatsapp {
+        font-size: 30px;
+        text-align: center;
+        margin: 10px;
+    }
+    .bi-instagram {
+        font-size: 30px;
+        text-align: center;
+        margin: 10px;
+    }
+    .bi-twitter {
+        font-size: 30px;
+        text-align: center;
+        margin:10px;
+    }
+    .bi-facebook {
+        font-size: 30px;
+        text-align: center;
+        margin: 10px;
+    }
+    .bi-envelope {
+        font-size: 30px;
+        text-align: center;
+        margin: 10px;
+    }
+    .bi-geo-alt {
+        font-size: 30px;
+        text-align: center;
+        margin: 10px;
+    }
+    .developer {
+        text-decoration: none;
+        color: #fcfcfc;
+        font-family: "roboto condensed" , sans-serif;
+        font-weight: bold;
+        font-style: italic;
+        font-size: 17px;
+    }
+    .hipervinculos {
+        text-decoration: none;
+        color: #fcfcfc;
+
+        &:hover{
+            color: $rojo;
+            font-size: 20px;
+        }
+    }
+
+}
