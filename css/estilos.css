@@ -95,11 +95,37 @@ footer .developer {
 }
 footer .hipervinculos {
   text-decoration: none;
-  color: #fcfcfc;
 }
 footer .hipervinculos:hover {
-  color: #d7002d;
   font-size: 20px;
+  color: #d7002d;
+}
+footer .miNombre {
+  color: #fcfcfc;
+}
+
+.bi-facebook {
+  color: #4267B2;
+}
+
+.bi-instagram {
+  color: #C13584;
+}
+
+.bi-twitter {
+  color: #1DA1F2;
+}
+
+.bi-whatsapp {
+  color: #25d366;
+}
+
+.bi-envelope {
+  color: #c71610;
+}
+
+.bi-geo-alt {
+  color: #FFFFFF;
 }
 
 body, html {
