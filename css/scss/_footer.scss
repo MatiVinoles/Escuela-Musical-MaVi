@@ -4,34 +4,22 @@ footer {
     width: auto;
 
     .bi-whatsapp {
-        font-size: 30px;
-        text-align: center;
-        margin: 10px;
+        @extend %iconosFooter;
     }
     .bi-instagram {
-        font-size: 30px;
-        text-align: center;
-        margin: 10px;
+        @extend %iconosFooter;
     }
     .bi-twitter {
-        font-size: 30px;
-        text-align: center;
-        margin:10px;
+        @extend %iconosFooter;
     }
     .bi-facebook {
-        font-size: 30px;
-        text-align: center;
-        margin: 10px;
+        @extend %iconosFooter;
     }
     .bi-envelope {
-        font-size: 30px;
-        text-align: center;
-        margin: 10px;
+        @extend %iconosFooter;
     }
     .bi-geo-alt {
-        font-size: 30px;
-        text-align: center;
-        margin: 10px;
+        @extend %iconosFooter;
     }
     .developer {
         text-decoration: none;
@@ -43,12 +31,20 @@ footer {
     }
     .hipervinculos {
         text-decoration: none;
-        color: #fcfcfc;
 
         &:hover{
-            color: $rojo;
             font-size: 20px;
+            color: $rojo;
         }
     }
+    .miNombre {
+        color: #fcfcfc;
+    }
 
+}
+
+@each $red, $color in $redes {
+    .bi-#{$red} {
+        color: $color;
+    }
 }
