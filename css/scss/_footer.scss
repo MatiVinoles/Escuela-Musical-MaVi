@@ -23,7 +23,6 @@ footer {
     }
     .developer {
         text-decoration: none;
-        color: #fcfcfc;
         font-family: "roboto condensed" , sans-serif;
         font-weight: bold;
         font-style: italic;
@@ -31,20 +30,12 @@ footer {
     }
     .hipervinculos {
         text-decoration: none;
+        color:#fcfcfc;
 
         &:hover{
             font-size: 20px;
             color: $rojo;
         }
     }
-    .miNombre {
-        color: #fcfcfc;
-    }
-
 }
 
-@each $red, $color in $redes {
-    .bi-#{$red} {
-        color: $color;
-    }
-}
