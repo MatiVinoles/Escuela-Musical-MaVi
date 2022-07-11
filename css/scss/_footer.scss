@@ -5,21 +5,45 @@ footer {
 
     .bi-whatsapp {
         @extend %iconosFooter;
+
+        &:hover{
+            color: #25d366
+        }
     }
     .bi-instagram {
         @extend %iconosFooter;
+
+        &:hover{
+            color: #E1306C
+        }
     }
     .bi-twitter {
         @extend %iconosFooter;
+
+        &:hover{
+            color: #1D9BF0
+        }
     }
     .bi-facebook {
         @extend %iconosFooter;
+
+        &:hover{
+            color: #0165E1
+        }
     }
     .bi-envelope {
         @extend %iconosFooter;
+
+        &:hover{
+            color: #c71610
+        }
     }
     .bi-geo-alt {
         @extend %iconosFooter;
+
+        &:hover{
+            color: #f2a60c;
+        }
     }
     .developer {
         text-decoration: none;
@@ -34,8 +58,16 @@ footer {
 
         &:hover{
             font-size: 20px;
+        }
+    }
+<<<<<<< HEAD
+=======
+    .miNombre {
+
+        &:hover{
             color: $rojo;
         }
     }
+>>>>>>> rama2
 }
 
