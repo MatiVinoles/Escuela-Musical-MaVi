@@ -47,6 +47,7 @@ footer {
     }
     .developer {
         text-decoration: none;
+        color: #fcfcfc;
         font-family: "roboto condensed" , sans-serif;
         font-weight: bold;
         font-style: italic;
@@ -60,14 +61,11 @@ footer {
             font-size: 20px;
         }
     }
-<<<<<<< HEAD
-=======
     .miNombre {
 
         &:hover{
             color: $rojo;
         }
     }
->>>>>>> rama2
 }
 
